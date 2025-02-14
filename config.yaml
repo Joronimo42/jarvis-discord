@@ -1,0 +1,15 @@
+name: Discord Home Assistant Bot
+version: "1.0.0"
+slug: discord_bot
+description: A Discord bot that integrates with Home Assistant's conversation API.
+startup: application
+boot: auto
+options:
+  discord_bot_token: "YOUR_DISCORD_BOT_TOKEN"
+  discord_channel_id: "YOUR_DISCORD_CHANNEL_ID"  # Set the channel ID where the bot should operate.
+  home_assistant_url: "http://homeassistant.local:8123/api/conversation"  # Example endpoint.
+  home_assistant_token: "YOUR_HOME_ASSISTANT_LONG_LIVED_ACCESS_TOKEN"
+  agent_id: "ollama"
+  user_mapping:
+    "123456789012345678": "person.john_doe"
+    "987654321098765432": "person.jane_doe"
