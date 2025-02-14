@@ -1,0 +1,11 @@
+{
+    "name": "joronimo42's Custom Add-ons",
+    "version": "1.0",
+    "addons": {
+      "discord_bot": {
+        "name": "Discord Home Assistant Bot",
+        "slug": "discord_bot",
+        "version": "1.0"
+      }
+    }
+  }
